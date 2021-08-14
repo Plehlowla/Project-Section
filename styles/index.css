@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: poppins, sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+#project {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 50px 50px;
+}
+
+#project .project-heading {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#project .project-heading h3 {
+  font-size: 2.7rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+#project .project-heading span {
+  color: #f33c3c;
+}
+
+#project .portfolio-filter {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 20px;
+  border: 1px solid rbg(237, 237, 237, 0.6);
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 20px;
+}
+
+#project .portfolio-filter li {
+  margin: 10px;
+  padding: 5px 20px;
+  color: #9b9b9b;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+#project .portfolio-filter-active {
+  background-color: #f0f0f0;
+  color: #272727 !important;
+}
+
+#project .portfolio-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+}
+
+#project .portfolio-container .portfolio-box {
+  width: 330px;
+  padding: 15px;
+  border: 1px solid #eeeeee;
+  margin: 20px;
+}
+
+#project .portfolio-container .portfolio-box img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+@media (max-width: 740px) {
+  .portfolio-filter {
+    background-color: #f9f9f9;
+    border: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  .portfolio-filter-active {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+  }
+  .portfolio-box {
+    width: 80%;
+  }
+}
+
+@media (max-width: 550px) {
+  .project-heading h3 {
+    font-size: 1.8rem;
+  }
+}
+/*# sourceMappingURL=index.css.map */
